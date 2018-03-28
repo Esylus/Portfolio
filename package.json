@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Esylus/Portfolio/issues"
   },
-  "homepage": "https://github.com/Esylus/Portfolio#readme"
+  "homepage": "https://github.com/Esylus/Portfolio#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.7.3"
+  }
 }
