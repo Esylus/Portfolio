@@ -50,10 +50,8 @@ transporter.sendMail(mailOptions, (error, info) => {
 
     console.log('Message sent: %s', info.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-
-
-});
+    });
 });
 
 
-module.exports = router;   // DONT FORGET THIS
+module.exports = router;  

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {SendMsgService} from '../../services/send-msg.service';
+
 
 @Component({
   selector: 'app-contact',
@@ -13,10 +15,11 @@ export class ContactComponent implements OnInit {
   message: string;
 
 
-  constructor() { }
+  constructor(private sendMsgService: SendMsgService) { }
 
   ngOnInit() {
   }
+
 
   messageSubmit(){
     const message = 
@@ -28,15 +31,14 @@ export class ContactComponent implements OnInit {
     }    
     console.log(message);
 
-    // validate backend 
-
-    // gather input from fields into an object
-
-    // validate all forms are filled
-    // validate email    
-    // validate phone number
-
-    // pass to service that will send to back
+    this.sendMsgService.sendMessage(message).subscribe(data =>{
+      if(data.success){
+        console.log('Message sent - Thanks');
+        window.location.reload();
+      } else {
+        console.log('There was an error');
+      }
+    });
 
   }
 
