@@ -1,16 +1,23 @@
-nav 
+
+
+ nav
 {
-    position:fixed;
-    top: 0;
-    left: 0;
+    background-color: transparent;
+    position: fixed;
     width: 100%;
+/*
+    position:fixed;
+    background: transparent;
+     top: 0;
+    left: 0;
+       width: 100%;
     height: 70px;
     background: rgba(0, 0, 0, 0);
     padding: 0 100px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
-nav .brand
+/* nav .brand
 {
     float: left;
     height: 100%;
@@ -48,4 +55,4 @@ nav ul li a
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;  
-}
+}  */
