@@ -1,26 +1,37 @@
-<section class="bgContact"></section>
+<section class="bgContact">
 
-<div>
-    <h3>Email Us</h3>
-    {{msg}}
-    <form  (submit)="messageSubmit()">
-      <p>
-        <label>Name</label>
-        <input type="text" [(ngModel)]="name" name="name">
-      </p>
-      <p>
-        <label>Email Address</label>
-        <input type="email" [(ngModel)]="email" name="email">
-      </p>
-      <p>
-        <label>Phone Number</label>
-        <input type="text" [(ngModel)]="phone" name="phone">
-      </p>
-      <p>
-        <label>Message</label>
-        <textarea name="message" [(ngModel)]="message" rows="5"></textarea>
-      </p>
-      <p >
-        <button type="submit">Submit</button>
-      </p>
-    </form>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-12 main-section">
+          <div class="modal-content">
+        <h1 id="getInTouch">Connect</h1>
+            
+
+            <form class="col-12" type="post" (submit)="messageSubmit()">
+             
+              <div class="form-group fullName">
+                <input type="text" class="form-control" placeholder="Enter Name" [(ngModel)]="name" name="name">
+              </div>
+             
+              <div class="form-group">
+                <input  type="email" class="form-control" placeholder="Enter Email" [(ngModel)]="email" name="email">
+              </div>
+             
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter Phone Number" [(ngModel)]="phone" name="phone">
+              </div>
+
+              <div class="form-group">  
+                <textarea  class="form-control" name="message" [(ngModel)]="message" rows="4" placeholder="Enter Message"></textarea>
+              </div>
+             
+              <button type="submit" class="btn"><i class="fas fa-sign-in-alt"></i>Send</button>
+            </form>
+    
+            <div class="col-12 response">
+              <p>{{response}}</p>
+            </div>
+    
+          </div>    
+      </div>
+    </div>        
+</section>

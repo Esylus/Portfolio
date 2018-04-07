@@ -1,10 +1,7 @@
-@font-face{                            /* load font for use */
-    font-family: CambriaMath;
-    src: url("../../../assets/fonts/CambriaMath.ttf");
-}
+
 
 nav.navbar {
-    background-color: transparent;
+    background-color: black;
     position: fixed;
     width: 100%;
 }
@@ -12,32 +9,36 @@ nav.navbar {
 /* TEMP BRAND */
 .navbar .navbar-brand{
     color: rgb(255,255,255);
-    font-family: CambriaMath, sans-serif;
     font-size: 180%;
     text-shadow: 3px 1px #000000; 
 }
 
 /* make nav items white */
 .navbar .nav-item .nav-link{
-    color: rgb(255,255,255);
-    font-family: CambriaMath, sans-serif;
+    color: #FFF;
     font-size: 160%;
     padding-left: 15px;
-    text-shadow: 3px -2px #000000; 
+    text-shadow: 2px -1px #000000; 
 }
 
 /* make nav items white HOVER */
 .navbar .nav-item .nav-link:hover{
-    color: rgb(239, 245, 238);
+    color: rgb(151, 151, 151);
 }
 
-/* change hamburger button border color */
-button.navbar-toggler{
-    border-color: rgb(251, 251, 251);
-    box-shadow: 2px 1px #000000; 
-  }
+
 
   /* change hamburger button border color HOVER */
-button.navbar-toggler:hover{
-    border-color: rgb(251, 251, 251);
+.navbar .navbar-toggler:hover{
+
   }
+
+  /* change hamburger button border color */
+.navbar .navbar-toggler{
+    outline: none;
+    border-color: #FFF;
+  }
+
+
+
+ 
