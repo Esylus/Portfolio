@@ -20,12 +20,10 @@
     margin-bottom: 40px;
 }
 
-
-
   .modal-dialog{
     margin: 0 auto;
-    padding-top: 100px;
-
+    padding-top: 50px;
+    padding-bottom: 25px;
   }
 
   .main-section{
@@ -99,8 +97,6 @@ button {
 
 .btn {
     background-color:#122C48;
-
-
     color: #fff;
     font-size: 19px;
     padding: 7px 10px;
@@ -123,4 +119,33 @@ button {
     font-weight: 500;
 	text-shadow: 7px 2px 6px #000;    
 	color: #FFF;
+}
+
+ .social a {
+    font-size: 1.5em;
+    padding-left : 3.5rem;
+}
+
+.fa-facebook{
+    color: #3b5998;
+    font-size: 1.5em;
+}
+.fa-instagram{
+    color: #00aced;
+    font-size: 1.5em;
+}
+.fa-linkedin{
+    color: #395fdd;
+    font-size: 1.5em;
+}
+.fa-soundcloud{
+    color: #517fa8;
+    font-size: 1.5em;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-soundcloud:hover {
+ color: #d5d5d5;
 }
