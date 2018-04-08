@@ -5,9 +5,34 @@
     height: 100vh;
     box-sizing: border-box;
     background: url('../../../assets/images/home.jpg')  no-repeat 50% 50%;
+    display: table;
+    position: relative;
     background-size: cover;
 }
 
+/* Style caption sitting directly in the center */
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+  }
 
+/* Main Spheres heading */
+.landing-text h1 {
+	font-size: 600%;
+	text-shadow: 2px 2px 4px #FFF;       /*Shadow is 1px horz, 1px vert, 10px width, color black*/
+	color: #000;
+
+}
+
+  /* School Of Music heading */
+  .landing-text h3 {
+	font-size: 300%;
+	font-weight: 500;
+	text-shadow: 7px 2px 6px #000000;
+	color: #FFF;
+	padding-top: 20px;
+	padding-bottom: 30px;
+  }
 
     

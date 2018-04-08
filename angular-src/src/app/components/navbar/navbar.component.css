@@ -23,7 +23,7 @@ nav.navbar {
 
 /* make nav items white HOVER */
 .navbar .nav-item .nav-link:hover{
-    color: rgb(151, 151, 151);
+    color: #103C8B;
 }
 
 

@@ -1,9 +1,135 @@
 
-.bgPortfolio
-{
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    background: url('../../../assets/images/portfolio.jpg')  no-repeat 50% 50%;
-    background-size: cover;
+
+/* Images in carousel - take up full screen with full image */
+.carousel-inner  {
+  /* margin-top: -70px; */
+  }
+  
+
+
+  /* Style caption sitting directly in the center */
+  .carousel-caption {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+  }
+  
+  /* Main hero heading */
+  .carousel-caption h1 {
+    font-size: 800%;
+	text-shadow: 7px 2px 6px #FFF;    
+	color: #000;   
+  }
+  
+  /* Main sub heading */
+  .carousel-caption h3 {
+	font-size: 300%;
+	font-weight: 500;
+	text-shadow: 7px 2px 6px #000;
+    color: #FFF;
+    padding-bottom: 40px;
+  }
+  
+
+
+
+/* --------------------------Style Carousel Indicators------------------------------------------ */
+
+  ol.carousel-indicators {
+    top: 30px;
+  }
+  
+  ol.carousel-indicators li {
+    height: 16px;
+    background:#606060;
+    border-radius: 50%;
+  }
+  
+   ol.carousel-indicators li.active {
+    background:#BBBBBB;
+  } 
+
+
+
+/* ----------------------------------2 Section Slider Globals----------------- */
+
+/* using this because giving class renders button useless */
+.container-fluid {
+padding-top: 100px;
 }
+
+
+
+h2 {
+	font-size: 300%;
+	font-weight: 500;
+  color: #FFF;
+  text-shadow: 7px 2px 6px #000;
+  /* padding-bottom: 50px; */
+  text-align: left;
+}
+
+p {
+	font-size: 100%;
+	font-weight: 500;
+  color: #FFF;
+  text-shadow: 7px 2px 6px #000;
+  text-align: left;
+}
+
+
+
+  /* Main button primary */
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+  
+  /* Main button primary HOVER */
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+/* ---------------------------Dvorak Slide */
+
+.bgDvorak 
+{
+  background: url('../../../assets/images/contact.jpg')  no-repeat 50% 50%; 
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: table;
+  position: relative;
+  background-size: cover; 
+}
+
+#imgSpheres{
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  }
+
+#imgNoterize{
+  max-width: 70%;
+  height: auto;
+  margin-top: 20px;
+  }
+
+#imgDvorak{
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  }
+
+#imgEarTraining{
+  max-width: 90%;
+  height: auto;
+  margin-top: 20px;
+  }
+  
+#imgCalculator{
+   max-width: 70%;
+   height: auto;
+   margin-top: 20px;
+  }

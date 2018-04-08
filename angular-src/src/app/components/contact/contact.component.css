@@ -98,7 +98,8 @@ button {
 }
 
 .btn {
-    background-color:rgb(29, 59, 92);
+    background-color:#122C48;
+
 
     color: #fff;
     font-size: 19px;
@@ -108,7 +109,7 @@ button {
 }
 
 .btn:hover, .btn:focus {
-    background-color:rgb(16, 43, 73) !important;
+    background-color: #122D50 !important;
     border-bottom: 4px solid rgb(16, 43, 73);
 }
 
