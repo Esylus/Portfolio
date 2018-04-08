@@ -26,11 +26,13 @@
 	margin-top: 65px;
 }
 
+/* Main Name Animation */
 #PJName {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 1s;
 }
 
+/* Sub-heading animation */
 #PJDev {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 2s;
@@ -42,5 +44,4 @@
 	font-weight: 500;
 	text-shadow: 2px 2px 4px #FFF;
 	color: #000;
-
   }

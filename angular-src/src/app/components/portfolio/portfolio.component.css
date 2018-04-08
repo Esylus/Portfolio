@@ -1,10 +1,11 @@
+/* ------------------------Global Padding */
 
 .padding {
 	padding-bottom: 4rem;
   }
 
-/* Parralax Hero Section */
-.bgTest 
+/* ----------------------- Portfolio Hero Section */
+.bgPortfolio 
 {
     background: url('../../../assets/images/contact.jpg')  no-repeat center center fixed;
     display: table; 
@@ -15,7 +16,7 @@
     z-index: -1;
 }
 
-.bgTest:before{
+.bgPortfolio:before{
 	content: '';
 	background: url('../../../assets/images/contact.jpg') no-repeat;
 	position: fixed;
@@ -24,29 +25,46 @@
 	height: 100vh;
 	width: 100%;
 	background-size: cover; 
-	z-index: -1;
+  z-index: -1;
+  /* opacity: 0.65; */
+  filter: brightness(40%);
+
 }
 
-
+/*----------------------------------------------------- Intro */
 /* Style caption sitting directly in the center */
-.test-headline {
+.port-intro {
   display: table-cell;
 	text-align: center;
-	vertical-align: middle;
+  vertical-align: middle;
   }
 
-  /* Main Spheres heading */
-.test-headline h1 {
-	font-size: 300%;
-	text-shadow: 7px 2px 6px #000000;       /*Shadow is 1px horz, 1px vert, 10px width, color black*/
+  /* Main Portfolio heading */
+.port-intro h1 {
+	font-size: 700%;
+	text-shadow: 2px 2px 2px #166EDF;      
 	color: #FFF;          
-    padding-bottom: 20px;
-    margin-top: -100px;
-	
+  padding-bottom: 20px;
 }
 
-  /* School Of Music heading */
-  .test-headline h3 {
+  /* Portfolio Subheading */
+  .port-intro h2 {
+    font-size: 400%;
+	  text-shadow: 2px 2px 4px #166EDF;       
+    color: #FFF;          
+    padding-bottom: 20px;
+  }
+
+ /* Portfolio Welcome horizontal line */
+ .port-intro hr {
+  border-top: 3 px solid #FFF;
+  margin-bottom: 1rem; 
+  width: 60%;
+
+}
+
+  /* Portfolio heading */
+  .port-intro h3 {
 	font-size: 150%;
 	font-weight: 500;
 	text-shadow: 7px 2px 6px #000000;
@@ -55,41 +73,132 @@
     padding-left: 50px;
   }
 
-  /* About blurk */
-  .test-headline h6 {
+ /* Portfolio blurb */
+ .port-intro h5 {
+  font-size: 200%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+  /* Portfolio blurb */
+  .port-intro h6 {
     font-size: 200%;
     font-weight: 500;
     color: #FFF;
     text-shadow: 2px 2px 4px #000000; 
  }
 
-/*----------------------------------------About the School Section--------------------------*/
 
-  /* About blurb container */
-  .test {
+
+/*----------------------------------------Global Project Section--------------------------*/
+
+  /* Project container */
+  .port {
     width: 60%;
     margin: 0 auto; 
     padding-top: 4rem;
   }
 
-  /* Welcome horizontal line */
-.test hr {
-    border-top: 2px solid #FFF;
-    width: 95%; 
-    margin-top: 3rem;
-    margin-bottom: 1rem; 
-  }
-
- /* About heading */ 
-.test h2 {
-    font-size: 600%;
+ /* Project heading */ 
+.port h2 {
+    font-size: 400%;
     font-weight: 500;
     color: #FFF;
+	  text-shadow: 2px 2px 4px #166EDF;         
  }
-  /* About blurk */
-.test h6 {
+
+ /* Project Sub-heading */ 
+ .port h3 {
+  font-size: 200%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #000;       /*Shadow is 1px horz, 1px vert, 10px width, color black*/  
+}
+
+ /* Project Sub-heading */ 
+ .port h4 {
+  font-size: 150%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #000;       /*Shadow is 1px horz, 1px vert, 10px width, color black*/  
+}
+
+  /* Project blurb info */
+.port h6 {
     font-size: 200%;
     font-weight: 500;
     color: #FFF;
     text-shadow: 7px 2px 6px #000000; 
  }
+
+  /* View Website button primary */
+  .btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+
+  .btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+  }
+
+  /* View github icon */
+  .fa-github{
+    color: #294680;
+    font-size: 4.5em;
+  }
+  
+  /* View soundcloud icon */
+  .fa-soundcloud{
+    color: #294680;
+    font-size: 4.5em;
+  }
+
+  .fa-github:hover,
+  .fa-soundcloud:hover {
+   color: #d5d5d5;
+  }
+
+  /* Project seperator horizontal line */
+  .port hr {
+    border-top: 2px solid #FFF;
+    width: 95%; 
+    margin-top: 7rem;
+    margin-bottom: 1rem; 
+  }
+
+
+/* ------------------------------Project image sizing */
+
+#imgSpheres{
+  width: 100%;
+  padding: 30px;
+}
+
+ #imgNoterize{
+  width: 80%;
+  padding: 30px;
+}
+
+ #imgEarTraining{
+  width: 100%;
+  padding: 30px;
+}
+
+#imgDvorak{
+  width: 80%;
+  padding: 30px;
+}
+
+#imgKousk{
+  width: 80%;
+  padding: 30px;
+}
+
+#imgAbleton{
+  width: 80%;
+  padding: 30px;
+}
