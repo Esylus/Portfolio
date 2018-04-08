@@ -1,133 +1,95 @@
 
-
-/* Images in carousel - take up full screen with full image */
-.carousel-inner  {
-  /* margin-top: -70px; */
+.padding {
+	padding-bottom: 4rem;
   }
-  
 
-
-  /* Style caption sitting directly in the center */
-  .carousel-caption {
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-  }
-  
-  /* Main hero heading */
-  .carousel-caption h1 {
-    font-size: 800%;
-	text-shadow: 7px 2px 6px #FFF;    
-	color: #000;   
-  }
-  
-  /* Main sub heading */
-  .carousel-caption h3 {
-	font-size: 300%;
-	font-weight: 500;
-	text-shadow: 7px 2px 6px #000;
-    color: #FFF;
-    padding-bottom: 40px;
-  }
-  
-
-/* --------------------------Style Carousel Indicators------------------------------------------ */
-
-  ol.carousel-indicators {
-    top: 30px;
-  }
-  
-  ol.carousel-indicators li {
-    height: 16px;
-    background:#606060;
-    border-radius: 50%;
-  }
-  
-   ol.carousel-indicators li.active {
-    background:#BBBBBB;
-  } 
-
-
-
-/* ----------------------------------2 Section Slider Globals----------------- */
-
-/* using this because giving class renders button useless */
-.container-fluid {
-padding-top: 100px;
-}
-
-
-
-h2 {
-	font-size: 300%;
-	font-weight: 500;
-  color: #FFF;
-  text-shadow: 7px 2px 6px #000;
-  /* padding-bottom: 50px; */
-  text-align: left;
-}
-
-p {
-	font-size: 100%;
-	font-weight: 500;
-  color: #FFF;
-  text-shadow: 7px 2px 6px #000;
-  text-align: left;
-}
-
-
-
-  /* Main button primary */
-.btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
-}
-  
-  /* Main button primary HOVER */
-.btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
-}
-
-/* ---------------------------Dvorak Slide */
-
-.bgDvorak 
+/* Parralax Hero Section */
+.bgTest 
 {
-  background: url('../../../assets/images/contact.jpg')  no-repeat 50% 50%; 
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  display: table;
-  position: relative;
-  background-size: cover; 
+    background: url('../../../assets/images/contact.jpg')  no-repeat center center fixed;
+    display: table; 
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
 }
 
-#imgSpheres{
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
+.bgTest:before{
+	content: '';
+	background: url('../../../assets/images/contact.jpg') no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background-size: cover; 
+	z-index: -1;
+}
+
+
+/* Style caption sitting directly in the center */
+.test-headline {
+  display: table-cell;
+	text-align: center;
+	vertical-align: middle;
   }
 
-#imgNoterize{
-  max-width: 70%;
-  height: auto;
-  margin-top: 20px;
+  /* Main Spheres heading */
+.test-headline h1 {
+	font-size: 300%;
+	text-shadow: 7px 2px 6px #000000;       /*Shadow is 1px horz, 1px vert, 10px width, color black*/
+	color: #FFF;          
+    padding-bottom: 20px;
+    margin-top: -100px;
+	
+}
+
+  /* School Of Music heading */
+  .test-headline h3 {
+	font-size: 150%;
+	font-weight: 500;
+	text-shadow: 7px 2px 6px #000000;
+	color: #FFF;
+	padding-top: 10px;
+    padding-left: 50px;
   }
 
-#imgDvorak{
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
+  /* About blurk */
+  .test-headline h6 {
+    font-size: 200%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 7px 2px 6px #000000; 
+ }
+
+/*----------------------------------------About the School Section--------------------------*/
+
+  /* About blurb container */
+  .test {
+    width: 60%;
+    margin: 0 auto; 
+    padding-top: 4rem;
   }
 
-#imgEarTraining{
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
+  /* Welcome horizontal line */
+.test hr {
+    border-top: 2px solid #FFF;
+    width: 95%; 
+    margin-top: 3rem;
+    margin-bottom: 1rem; 
   }
-  
-#imgCalculator{
-   max-width: 70%;
-   height: auto;
-   margin-top: 20px;
-  }
+
+ /* About heading */ 
+.test h2 {
+    font-size: 600%;
+    font-weight: 500;
+    color: #FFF;
+ }
+  /* About blurk */
+.test h6 {
+    font-size: 200%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 7px 2px 6px #000000; 
+ }

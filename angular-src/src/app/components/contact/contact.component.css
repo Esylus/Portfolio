@@ -17,7 +17,7 @@
 	text-shadow: 7px 2px 6px #000000;       /*Shadow is 1px horz, 1px vert, 10px width, color black*/
 	color: #FFF;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 15px; 
 }
 
   .modal-dialog{
@@ -44,7 +44,7 @@
 
 /* Spacing between inputs */
 .form-group {
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 /* Input shaping */
@@ -101,17 +101,17 @@ button {
     font-size: 19px;
     padding: 7px 10px;
     border-radius: 5px;
-    border-bottom: 4px solid rgb(16, 43, 73);
+    /* border-bottom: 4px solid rgb(34, 75, 129); */
 }
 
 .btn:hover, .btn:focus {
-    background-color: #122D50 !important;
-    border-bottom: 4px solid rgb(16, 43, 73);
+    background-color: rgb(34, 75, 129) !important;
+    /* border-bottom: 4px solid rgb(16, 43, 73); */
 }
 
 .svg-inline--fa {
-    font-size: 20px;
-    margin-right: 7px;   
+    font-size: 20px; 
+     margin-right: 7px;   
 }
 
 .response p {
@@ -122,29 +122,25 @@ button {
 }
 
  .social a {
-    font-size: 1.5em;
-    padding-left : 3.5rem;
+    font-size: 2em;
+    padding-left : 0.5rem;
+        margin-bottom: 40px;
 }
 
-.fa-facebook{
+.fa-github{
     color: #3b5998;
-    font-size: 1.5em;
-}
-.fa-instagram{
-    color: #00aced;
-    font-size: 1.5em;
-}
-.fa-linkedin{
-    color: #395fdd;
     font-size: 1.5em;
 }
 .fa-soundcloud{
     color: #517fa8;
     font-size: 1.5em;
 }
+.fa-linkedin{
+    color: #395fdd;
+    font-size: 1.5em;
+}
 
-.fa-facebook:hover,
-.fa-instagram:hover,
+.fa-github:hover,
 .fa-linkedin:hover,
 .fa-soundcloud:hover {
  color: #d5d5d5;
