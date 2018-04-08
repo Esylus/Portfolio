@@ -15,6 +15,7 @@
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+
   }
 
 /* Main Spheres heading */
@@ -22,7 +23,17 @@
 	font-size: 600%;
 	text-shadow: 2px 2px 4px #FFF;       /*Shadow is 1px horz, 1px vert, 10px width, color black*/
 	color: #000;
+	margin-top: 65px;
+}
 
+#PJName {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+}
+
+#PJDev {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
 }
 
   /* School Of Music heading */
