@@ -6,38 +6,29 @@ nav.navbar {
     width: 100%;
 }
 
-/* TEMP BRAND */
-.navbar .navbar-brand{
-    color: rgb(255,255,255);
-    font-size: 180%;
-    text-shadow: 3px 1px #000000; 
-}
-
 /* make nav items white */
 .navbar .nav-item .nav-link{
     color: #FFF;
-    font-size: 160%;
+    font-size: 140%;
     padding-left: 15px;
     text-shadow: 2px -1px #000000; 
 }
 
 /* make nav items white HOVER */
 .navbar .nav-item .nav-link:hover{
-    color: #103C8B;
+    color: #166EDF;
 }
 
-
-
-  /* change hamburger button border color HOVER */
+/* change hamburger button border color HOVER */
 .navbar .navbar-toggler:hover{
 
-  }
+}
 
-  /* change hamburger button border color */
+/* change hamburger button border color */
 .navbar .navbar-toggler{
     outline: none;
     border-color: #FFF;
-  }
+}
 
 
 

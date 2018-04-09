@@ -1,16 +1,16 @@
+/* -------------------------------------Landing Hero---------- */
 
-.bgAbout 
-{
+.bgAbout {
+    background: url('../../../assets/images/about.jpg')  no-repeat 50% 50%;
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    background: url('../../../assets/images/about.jpg')  no-repeat 50% 50%;
     background-size: cover;
 }
 
 /* -------------------------------------Hero Parralax---------- */
 
-.bgHome{
+.bgHome {
 	background: url('../../../assets/images/home.jpg') no-repeat center center fixed;
 	display: table;
 	position: relative;
@@ -22,8 +22,7 @@
 
 .bgHome:before{
 	content: '';
-	background: url('../../../assets/images/home.jpg') no-repeat;
-	position: fixed;
+	background: url('../../../assets/images/home.jpg') no-repeat center center fixed;
 	top: 0;
 	left: 0;
 	height: 100vh;
@@ -32,42 +31,72 @@
 	z-index: -1;
 }
 
-
 /*----------------------------------------Welcome Section--------------------------*/
 
 
-      /* About section */
-  .about {
-       width: 75%;
-       margin: 0 auto; 
-       padding-top: 4rem;
-     }
+     /* About section */
+.about {
+    width: 75%;
+    margin: 0 auto; 
+    padding-top: 4rem;
+    }
    
      /* About horizontal line */
-   .about hr {
-       border-top: 2px solid #000;
-       width: 95%; 
-       margin-top: .3rem;
-       margin-bottom: 1rem; 
-     }
+.about hr {
+    border-top: 2px solid #000;
+    width: 95%; 
+    margin-top: .3rem;
+    margin-bottom: 1rem; 
+    }
    
     /* About heading */
-   .about h2 {
-       font-size: 500%;
-       font-weight: 500;
-       color: #000;
-    	text-shadow: 2px 2px 3px #FFF;    
-       
-    }
-     /* About sub heading */
-   .about h6 {
-       font-size: 200%;
-       font-weight: 500;
-       color: #FFF ;
-    	text-shadow: 2px 2px 1px #000;    
-       
+.about h2 {
+    font-size: 500%;
+    font-weight: 500;
+    color: #000;
+    text-shadow: 2px 2px 3px #FFF;       
     }
 
+     /* About text */
+.about h6 {
+    font-size: 200%;
+    font-weight: 500;
+    color: #FFF ;
+    text-shadow: 2px 2px 1px #000;     
+    padding-bottom: 20px; 
+    }
 
 
 
+/*-------------------------------------------Media Queries ---------------------------*/
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+/* About heading */
+.about h2 {
+    font-size: 400%;      
+    }
+
+    /* About text */
+.about h6 {
+    font-size: 150%; 
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* About heading */
+.about h2 {
+    font-size: 300%;      
+    }
+
+    /* About text */
+.about h6 {
+    font-size: 100%; 
+    }
+
+}
