@@ -305,42 +305,17 @@
     padding: 30px;
   }
   
-  #imgKousk{
-    width: 100%;
-    padding: 30px;
-  }
-  
   #imgAbleton{
     width: 100%;
     padding: 30px;
   }
 
+  #imgKousk{
+    width: 100%;
+    padding: 30px;
+  }
+  
+
+
 }
 
-
-/* @media (max-width: 768px) {
-
-
-  .landing-text h1 {
-    font-size: 400%;
-    margin-top: 55px;
-  }
-
-
-  .landing-text h3 {
-    font-size: 250%;
-  }
-}
-
-@media (max-width: 576px) {
-
-
-  .landing-text h1 {
-    font-size: 250%;
-    margin-top: 40px;
-  }
-
-  .landing-text h3 {
-    font-size: 150%;
-  }
-} */
