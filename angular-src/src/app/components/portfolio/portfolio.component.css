@@ -155,17 +155,22 @@
 }
 
  #imgNoterize{
-  width: 80%;
+  width: 70%;
   padding: 30px;
 }
 
  #imgEarTraining{
-  width: 100%;
+  width: 70%;
   padding: 30px;
 }
 
 #imgDvorak{
-  width: 80%;
+  width: 70%;
+  padding: 30px;
+}
+
+#imgAbleton{
+  width: 70%;
   padding: 30px;
 }
 
@@ -173,12 +178,6 @@
   width: 80%;
   padding: 30px;
 }
-
-#imgAbleton{
-  width: 80%;
-  padding: 30px;
-}
-
 
 /*-------------------------------------------Media Queries ---------------------------*/
 
