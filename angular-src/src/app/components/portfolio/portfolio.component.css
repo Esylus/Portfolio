@@ -1,9 +1,321 @@
-
-.bgPortfolio
-{
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    background: url('../../../assets/images/portfolio.jpg')  no-repeat 50% 50%;
-    background-size: cover;
+/* Global Padding */
+.padding {
+	padding-bottom: 4rem;
 }
+
+/* ----------------------- Portfolio Images Section */
+.bgPortfolio {
+  background: url('../../../assets/images/contact.jpg')  no-repeat center center fixed;
+  display: table; 
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bgPortfolio:before {
+	content: '';
+	background: url('../../../assets/images/contact.jpg') no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background-size: cover; 
+  z-index: -1;
+  filter: brightness(40%);
+}
+
+/*----------------------------------------------------- Portfolio Intro */
+
+/* Align caption sitting directly in the center */
+.port-intro {
+  display: table-cell;
+	text-align: center;
+  vertical-align: middle;
+  }
+
+/* Main Portfolio heading */
+.port-intro h1 {
+	font-size: 700%;
+	text-shadow: 2px 2px 2px #166EDF;      
+	color: #FFF;          
+  padding-bottom: 20px;
+}
+
+/* Portfolio Subheading */
+.port-intro h2 {
+  font-size: 400%;
+  text-shadow: 2px 2px 4px #166EDF;       
+  color: #FFF;          
+  padding-bottom: 20px;
+}
+ 
+/* Portfolio blurb */
+.port-intro h5 {
+  font-size: 200%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #000000; 
+  margin-bottom: 20px;
+}
+
+/*----------------------------------------Global Projects Section--------------------------*/
+
+/* Project container */
+.port {
+  width: 60%;
+  margin: 0 auto; 
+  padding-top: 4rem;
+}
+
+/* Project heading */ 
+.port h2 {
+  font-size: 400%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #166EDF;         
+}
+
+/* Project Sub-heading */ 
+.port h3 {
+  font-size: 200%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #000;      
+}
+
+/* Project Sub-heading */ 
+.port h4 {
+  font-size: 150%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #000;      
+}
+
+/* Project blurb info */
+.port h6 {
+  font-size: 200%;
+  font-weight: 500;
+  color: #FFF;
+  text-shadow: 7px 2px 6px #000000; 
+}
+
+/* Container for hyperlinks */
+.projLinks{
+  padding-top: 30px;
+}
+
+/* View Website button primary */
+.btn-primary {
+  background-color: #FFF;
+  color: #000;
+  border: 1px solid #000;
+  margin: 20px;
+  margin-top: -20px;
+}
+
+.btn-primary:hover {
+  background-color: #166EDF;
+  color: #FFF;  
+  border: 1px solid #000;
+}
+
+/* View github icon */
+.fa-github{
+  color: #FFF;
+  font-size: 4.5em;
+}
+  
+/* View soundcloud icon */
+.fa-soundcloud{
+  color: #FFF;
+  font-size: 4.5em;
+}
+
+.fa-github:hover,
+.fa-soundcloud:hover {
+  color: #166EDF;
+}
+
+/* Project seperator horizontal line */
+.port hr { 
+  border-top: 2px solid #FFF;
+  width: 95%; 
+  margin-top: 7rem;
+  margin-bottom: 1rem; 
+}
+
+/* ------------------------------Project image sizing */
+
+#imgSpheres{
+  width: 100%;
+  padding: 30px;
+}
+
+ #imgNoterize{
+  width: 70%;
+  padding: 30px;
+}
+
+ #imgEarTraining{
+  width: 70%;
+  padding: 30px;
+}
+
+#imgDvorak{
+  width: 70%;
+  padding: 30px;
+}
+
+#imgAbleton{
+  width: 70%;
+  padding: 30px;
+}
+
+#imgKousk{
+  width: 80%;
+  padding: 30px;
+}
+
+/*-------------------------------------------Media Queries ---------------------------*/
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+  /* Main Portfolio heading */
+  .port-intro h1 {
+    font-size: 500%;
+  }
+
+  /* Portfolio Subheading */
+  .port-intro h2 {
+    font-size: 300%;
+  }
+
+  /* Portfolio blurb */
+  .port-intro h5 {
+    font-size: 150%;
+  }
+
+  /* Project heading */ 
+  .port h2 {
+    font-size: 300%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #166EDF;         
+  }
+
+  /* Project Sub-heading */ 
+  .port h3 {
+    font-size: 150%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000;      
+  }
+
+  /* Project Sub-heading */ 
+  .port h4 {
+    font-size: 125%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000;      
+  }
+
+  /* Project blurb info */
+  .port h6 {
+    font-size: 125%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 7px 2px 6px #000000; 
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  /* Main Portfolio heading */
+  .port-intro h1 {
+    font-size: 300%;
+  }
+
+  /* Portfolio Subheading */
+  .port-intro h2 {
+    font-size: 200%;
+  }
+  
+  /* Portfolio blurb */
+  .port-intro h5 {
+    font-size: 100%;
+  }
+
+  /* Project heading */ 
+  .port h2 {
+    font-size: 250%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #166EDF;         
+  }
+
+  /* Project Sub-heading */ 
+  .port h3 {
+    font-size: 150%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000;      
+  }
+
+  /* Project Sub-heading */ 
+  .port h4 {
+    font-size: 100%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000;      
+  }
+
+  /* Project blurb info */
+  .port h6 {
+    font-size: 100%;
+    font-weight: 500;
+    color: #FFF;
+    text-shadow: 7px 2px 6px #000000; 
+  }
+
+  #imgSpheres{
+    width: 100%;
+    padding: 30px;
+  }
+  
+   #imgNoterize{
+    width: 100%;
+    padding: 30px;
+  }
+  
+   #imgEarTraining{
+    width: 100%;
+    padding: 30px;
+  }
+  
+  #imgDvorak{
+    width: 100%;
+    padding: 30px;
+  }
+  
+  #imgAbleton{
+    width: 100%;
+    padding: 30px;
+  }
+
+  #imgKousk{
+    width: 100%;
+    padding: 30px;
+  }
+  
+
+
+}
+

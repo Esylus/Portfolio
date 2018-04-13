@@ -13,12 +13,15 @@ import { HomeComponent } from './components/home/home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 const appRoutes: Routes = [  // url:component routing
   {path:'', component: HomeComponent},
   {path:'about', component: AboutComponent},
   {path:'contact', component: ContactComponent},
-  {path:'portfolio', component: PortfolioComponent}
+  {path:'portfolio', component: PortfolioComponent},
+  {path: '404', component: NotfoundComponent},
+  {path: '**', redirectTo: '/404'}
 ]
 
 @NgModule({
@@ -28,7 +31,8 @@ const appRoutes: Routes = [  // url:component routing
     HomeComponent,
     PortfolioComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,

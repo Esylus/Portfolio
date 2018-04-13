@@ -17,11 +17,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/send', send);     // subrouter ADD ME
 
-
 app.get('/', function (req, res) {
-    res.send('Invalid Enpoint Bitch');
+    res.send('Invalid Enpoint');
+});
+
+// Handling these redirects in Angular but below redirect worked as well
+
+app.get('/*', function (req, res, next) {
+    res.sendFile('public/index.html', {root: __dirname });
 });
 
 app.listen(port, function(){
     console.log('Server started on port ' + port);
 });
+
