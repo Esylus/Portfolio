@@ -1,4 +1,7 @@
 /* -------------------------------------Landing Hero---------- */
+section {
+    padding-bottom: 200px;
+}
 
 .bgAbout {
     background: url('../../../assets/images/about.jpg')  no-repeat 50% 50%;
@@ -66,6 +69,10 @@
     padding-bottom: 20px; 
     }
 
+#imgPJ{
+    width: 20%;
+    padding-bottom: 30px;
+    }
 
 
 /*-------------------------------------------Media Queries ---------------------------*/
@@ -76,27 +83,37 @@
 
 @media (max-width: 768px) {
 
-/* About heading */
-.about h2 {
-    font-size: 400%;      
-    }
+    /* About heading */
+    .about h2 {
+        font-size: 400%;      
+        }
 
-    /* About text */
-.about h6 {
-    font-size: 150%; 
-    }
+        /* About text */
+    .about h6 {
+        font-size: 150%; 
+        }
+
+    #imgPJ{
+        width: 40%;
+        padding-bottom: 30px;
+        }
 }
 
 @media (max-width: 576px) {
 
-    /* About heading */
-.about h2 {
-    font-size: 300%;      
-    }
+        /* About heading */
+    .about h2 {
+        font-size: 300%;      
+        }
 
-    /* About text */
-.about h6 {
-    font-size: 100%; 
-    }
+        /* About text */
+    .about h6 {
+        font-size: 100%; 
+        }
+
+    #imgPJ{
+        width: 50%;
+        padding-bottom: 30px;
+        }
 
 }
