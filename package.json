@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A MEAN stack portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "bootstrap": "^4.0.0-beta.3",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemailer": "^4.6.3",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esylus/Portfolio.git"
+  },
+  "author": "PJ Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esylus/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Esylus/Portfolio#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.7.3"
+  }
+}

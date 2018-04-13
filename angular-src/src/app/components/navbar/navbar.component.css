@@ -1,0 +1,38 @@
+
+
+nav.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #FFF;
+    
+    
+}
+
+/* make nav items white */
+.navbar .nav-item .nav-link{
+    color: #FFF;
+    font-size: 140%;
+    padding-left: 15px;
+    text-shadow: 2px -1px #000000; 
+}
+
+/* make nav items white HOVER */
+.navbar .nav-item .nav-link:hover{
+    color: #166EDF;
+}
+
+/* change hamburger button border color HOVER */
+.navbar .navbar-toggler:hover{
+
+}
+
+/* change hamburger button border color */
+.navbar .navbar-toggler{
+    outline: none;
+    border-color: #FFF;
+}
+
+
+
+ 
