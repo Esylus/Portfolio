@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n\n@font-face{                            \n    font-family: CambriaMath;\n    src: url('CambriaMath.e0aa7f365d8bcbc2b787.ttf');\n}\n\nbody, html\n{\n    height: 100vh; \n    min-height: 100%; \n\n    /* height: 100%; */\n    width: 100%;  \n    margin: 0;\n    padding: 0;\n\n    font-family: CambriaMath, sans-serif;     /*Global font*/   \n}\n\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\r\n\r\n@font-face{                            \r\n    font-family: CambriaMath;\r\n    src: url('CambriaMath.e0aa7f365d8bcbc2b787.ttf');\r\n}\r\n\r\nbody, html\r\n{\r\n    height: 100vh; \r\n    min-height: 100%; \r\n\r\n    /* height: 100%; */\r\n    width: 100%;  \r\n    margin: 0;\r\n    padding: 0;\r\n\r\n    font-family: CambriaMath, sans-serif;     /*Global font*/   \r\n}\r\n\r\n"
 
 /***/ }),
 
